@@ -96,7 +96,7 @@ git push origin feature/awesome-feature
 MIT License. See LICENSE for more info.
 
 📬 Contact
-Made with ❤️ by Aryan Raj Gupta
+Made with ❤️ by Aryan Raj Gupta, Aarambh Maan Shreshta, Nehit Pahuja
 📧 For questions/collab: [gupta.raj.aryan.2005@gmail.com]
 🌐 Project website: Coming soon
 
