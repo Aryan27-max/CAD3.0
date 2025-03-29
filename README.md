@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/c0d49bea-2668-4194-ba41-b4dc900afdeb)
 # 🧬 OncoLens – AI-Powered Cancer Mutation Analysis Platform
 
 **CAD 3.0 Project | Built with ❤️ by Aryan Raj Gupta, Aarambh Maan Shreshta, and Nehit Pahuja**
