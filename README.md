@@ -1,104 +1,133 @@
-# CAD3.0
-oncolens
-🧬 OncoLens – AI-Powered Cancer Mutation Analysis Platform
+![image](https://github.com/user-attachments/assets/c0d49bea-2668-4194-ba41-b4dc900afdeb)
+# 🧬 OncoLens – AI-Powered Cancer Mutation Analysis Platform
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Tech Stack](https://img.shields.io/badge/stack-FastAPI%20%7C%20Next.js%20%7C%20HuggingFace%20%7C%20ClinVar%20%7C%20Ensembl-blue)
-
-OncoLens is an AI-powered web platform designed to streamline the analysis of cancer-related gene mutations. It allows researchers and clinicians to upload genomic files (FASTA/VCF), analyze them for pathogenic variants using real-time public databases (ClinVar, Ensembl), and predict drug responses using AI models and APIs like CancerVar, CIViC, and Hugging Face.
-
-
- 🚀 Features
-
-- ✅ Tumor Detection AI using Hugging Face models
-- 🧬 Gene Mutation Analysis from uploaded VCF/FASTA files
-- 💊 Drug Response Prediction using CancerVar & CIViC
-- 🌐 Real-time API integration with:
-  - [Ensembl REST API](https://rest.ensembl.org/)
-  - [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
-  - [CancerVar](https://cancervar.readthedocs.io/)
-  - [CIViC](https://civicdb.org/home)
-- 📁 Upload and parse gene mutation files directly
-- 📊 Simulated outputs when real API responses are unavailable
-- 🛡️ Built for researchers, medtech devs, and biotech students
-
+**CAD 3.0 Project | Built with ❤️ by Aryan Raj Gupta, Aarambh Maan Shreshta, and Nehit Pahuja**
 
 ---
 
-## 🧑‍💻 Getting Started
+### 🔍 Overview
 
-### Prerequisites
+**OncoLens** is an advanced AI-powered platform designed to simplify and accelerate the analysis of cancer-related gene mutations. Built for researchers, clinicians, medtech developers, and biotech students, OncoLens allows users to upload genomic files (VCF/FASTA), detect tumors using deep learning, identify pathogenic variants with real-time public databases, and predict drug responses using state-of-the-art AI and biomedical APIs.
+
+---
+
+### 🚀 Key Features
+
+- ✅ **Tumor Detection** powered by Hugging Face AI models  
+- 🧬 **Gene Mutation Analysis** from uploaded `.vcf` or `.fasta` files  
+- 💊 **Drug Response Prediction** using CancerVar and CIViC databases  
+- 🌐 **Live API Integration** with:
+  - [Ensembl REST API](https://rest.ensembl.org)
+  - [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
+  - [CancerVar](https://cancervar.wglab.org/)
+  - [CIViC](https://civicdb.org/)
+- 📁 **Drag-and-Drop File Upload** + smart parsing & validation  
+- 📊 **Simulated Outputs** when API results are unavailable  
+- 🛡️ **Built for real-world utility** in genomics, precision oncology, and bioinformatics education  
+
+---
+
+### 🔧 Tech Stack
+
+| Layer       | Stack                                      |
+|-------------|---------------------------------------------|
+| **Frontend**  | React.js + Next.js                         |
+| **Backend**   | FastAPI + Python 3.10+                     |
+| **AI/ML**     | Hugging Face Transformers                  |
+| **APIs**      | Ensembl, ClinVar, CancerVar, CIViC         |
+| **File Types**| `.vcf`, `.fasta`                           |
+
+---
+
+### 🧑‍💻 Getting Started
+
+#### 🔄 Prerequisites
 
 - Python 3.10+
 - Node.js 16+
 - Git
 
-1. Clone the Repository
+#### 🛠️ Clone & Run
 
-bash
+```bash
 git clone https://github.com/Aryan27-max/oncolens.git
 cd oncolens
+```
 
----
-2. Backend
+##### Backend Setup
+
+```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
-3. Frontend Setup (Next.js)
-bash
-Copy
-Edit
+##### Frontend Setup (Next.js)
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-🔧 Tech Stack
-Frontend: React.js + Next.js
+---
 
-Backend: FastAPI + Python
+### 🧪 Sample Use Case
 
-AI/ML: Hugging Face Models
+1. Upload your **VCF or FASTA** gene mutation file.
+2. OncoLens parses and validates the input.
+3. AI model detects tumor presence.
+4. Ensembl & ClinVar analyze gene mutations.
+5. CancerVar or CIViC predicts drug responses.
+6. 🎯 You receive a comprehensive, research-grade report!
 
-Bioinformatics APIs: Ensembl, ClinVar, CancerVar, CIViC
+---
 
-File Formats Supported: .vcf, .fasta
+### 🤝 Contributing
 
-🧪 Sample Use Case
-Upload your gene mutation file (VCF or FASTA).
+We welcome contributions from the community! Here’s how you can help:
 
-OncoLens parses and validates it.
+```bash
+# Fork the repository
+git checkout -b feature/your-feature-name
 
-AI scans for tumor presence.
+# Make your changes
+git commit -m "Added a cool feature"
 
-Ensembl & ClinVar analyze mutation effects.
+# Push and create a Pull Request
+git push origin feature/your-feature-name
+```
 
-CancerVar/CIViC predict drug responses.
+---
 
-You get a detailed report!
+### 📜 License
 
-🛠️ Contributing
-We welcome contributions! To contribute:
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for details.
 
-bash
-Copy
-Edit
-# Fork the repo
-# Create your branch
-git checkout -b feature/awesome-feature
+---
 
-# Commit changes
-git commit -m "Added awesome feature"
+### 📬 Contact & Collaboration
 
-# Push to branch and open a PR
-git push origin feature/awesome-feature
-📜 License
-MIT License. See LICENSE for more info.
+Want to collaborate, contribute, or just say hi?  
+Reach out to us at **[gupta.raj.aryan.2005@gmail.com](mailto:gupta.raj.aryan.2005@gmail.com)**
 
-📬 Contact
-Made with ❤️ by Aryan Raj Gupta, Aarambh Maan Shreshta, Nehit Pahuja
-📧 For questions/collab: [gupta.raj.aryan.2005@gmail.com]
-🌐 Project website: Coming soon
+🌐 **Project Website:** Coming soon  
+💡 *Let’s build something that saves lives.*
+
+---
+
+here are the some pics of the prototype
+
+![image](https://github.com/user-attachments/assets/9ca749d3-2569-43a4-b79d-df7e441ffa5a)
+
+![image](https://github.com/user-attachments/assets/6f877171-914b-413f-a1cd-d6f65e4354c6)
+
+![image](https://github.com/user-attachments/assets/36d36843-5155-4724-bd4e-a60085714c54)
+
+![image](https://github.com/user-attachments/assets/b61b9c39-b6d5-487a-b1ae-d6ee9c5451f7)
+
+fork the OncoLens now to experience the prototype
 
 
 
